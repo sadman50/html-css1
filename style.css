@@ -84,7 +84,7 @@
 
 .Support {
     margin: 0 auto;
-    background-image: url(./images/handshake.jpg);
+    background-image: url('./images/handshake.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;
