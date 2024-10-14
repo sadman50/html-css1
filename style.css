@@ -37,7 +37,34 @@
 
 
 
+
+
+
+.container {
+    background-color: #fef7f5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    font-family: Arial, sans-serif;
+}
+.logo {
+    width: 50px;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.description {
+    margin: 10px 0;
+}
+.learn-more {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .Inspiration {
+    
     text-align: center;
 }
 .Inspiration h1 {
@@ -56,7 +83,10 @@
 
 
 .Support {
+    margin: 0 auto;
     background-image: url(./images/handshake.jpg);
+    background-size: cover;
+    background-position: center;
     height: 300px;
     width: 1200px;
     border-radius: 10px;
@@ -92,3 +122,10 @@
 .lower a {
     text-decoration: none;
 }
+.card-titel{
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 
